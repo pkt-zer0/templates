@@ -1,0 +1,23 @@
+{
+    "name": "slightly-better-templates",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=20"
+    },
+    "main": "lib/main.js",
+    "scripts": {
+        "start": "tsc -p . && node .",
+        "test": "tsc -p . && node lib/test.js"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.17.0",
+        "@types/node": "^20.11.30",
+        "@types/baretest": "2.0.2",
+        "baretest": "2.0.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
+    }
+}

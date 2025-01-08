@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <title>Client-side example</title>
+    <style>
+        pre { font-size: 2rem; }
+    </style>
+    <script type="module">
+        import { t, format } from "./dist/templating.js";
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.querySelector('code');
+
+            container.innerText = format(t`
+                Hello
+                    ${['Templated', 'World']}
+                !
+            `);
+        });
+    </script>
+</head>
+<body>
+    <pre><code></code></pre>
+</body>
+</html>

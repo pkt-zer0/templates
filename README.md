@@ -10,7 +10,7 @@ Couldn't find an existing library that does that, so here we are.
 
 ## Usage
 
-Add `templating.ts` to your project, use its exports as needed.
+Add `templating.ts` to your project, use its exports as needed. (Pre-built ES modules also available under `dist`)
 There are some automated tests in `test.ts`, and a usage example in `example.ts`.  
 
 ## Features

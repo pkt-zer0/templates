@@ -18,6 +18,8 @@ There are some automated tests in `test.ts`, and a usage example in `example.ts`
 Tagged template literals are used to create the templated strings, which can then be formatted with various options:
 
 ```javascript
+import { t, format } from './templating';
+
 format(t`Hello, World!`, { indentWith: '---' });
 /* =>
 ---Hello, World!
